@@ -6,7 +6,7 @@ from urllib2 import urlopen
 from collections import Counter
 
 # Modify the tracebacklimit to 1 if you want to see the whole error statements
-# I hide those traceback statements because I find it annoying NOW. Just Now.!
+# I hide those traceback statements because I find it annoying NOW. Just Now..!
 sys.tracebacklimit = 0
 
 class Alohomora():
