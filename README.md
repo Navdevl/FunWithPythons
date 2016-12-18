@@ -35,17 +35,17 @@ Usage
 --------------------
 *P.S If you forgot what are the functionalities, scroll above. I gave a good explanation*
 
-To play with first functionality.
+**To play with first functionality.**
 >magic -s "edzlatsh" -w "hazel"
 >> Output: Yes, "hazel" can be created.
 
-To play with second one.
+**To play with second one.**
 >magic -s "hoi??tri" -w "rotti"
 >> Output: Yes, "rotti" can be created.
 
 Explanation for Second One. **['r' , 'o' , 't' , 'i']** already exists but one character **['t']** doesn't exist. But wildcharacter come into scene and played it's role. So we handled the character and returns a true statement.
 
-To play with third one.
+**To play with third one.**
 >longest -s "uruqrnytrois"
 >>turquois
 
