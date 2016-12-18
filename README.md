@@ -5,14 +5,15 @@ Welcome to Python Magic
 This simple **CODE** has two functions and they are doing great. First let me explain you the functionalities before saying the necessary things to install.
 
 **1.** Determine if a word can be formed using the letters given to you.
+
 Example: "okay" can be formed from this letter collections "ykieao"
 
 **2.** Now, Lets take our first function to a next level by handling **Wild Character (?)**
+
 Example: "mouse" can be formed from this letter collections "??sufe"
 
 **3.** Now we are taking this to ultimate level of programming. We given a dictionary file and our mission is to find the matching words as per **1** , but the twist in our show is, we need to find the **longest string** among the few strings that matches our constraint. Wild characters are also included.
 
-----------
 
 
 Dependencies
