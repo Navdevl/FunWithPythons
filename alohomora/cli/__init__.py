@@ -4,7 +4,6 @@ import click
 # using Fun as alias to help me type short and funny ;)
 from alohomora import Alohomora as Fun
 
-
 @click.command()
 @click.option('-s', default=None, help='Collection of letters. ')
 @click.option('-w', default=None, help='Word to compare all the letters in it with the already given one. ')
