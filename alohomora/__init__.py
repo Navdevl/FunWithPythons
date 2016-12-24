@@ -26,7 +26,7 @@ class Alohomora():
                 # Remove the character from collection
                 # This helps in the time where there are characters repeated
                 # Without third parameter in replace(), it replaces all occurrences.
-                # I commented about the replace() because, I had hard time finding that all my occurrences are replaced.
+                # I commented about the replace() because, I had hard time finding why all my occurrences are replaced.
 
                 self.collection = self.collection.replace(character, '', 1)
 
