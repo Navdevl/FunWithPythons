@@ -10,16 +10,12 @@ from alohomora import Alohomora as Fun
 def magic(s, w):
     fun = Fun(s, w)
     flag = fun.magic()
-    if flag:
-        print "Yes, \"" + w + "\" can be created."
-    else:
-        print "No, \"" + w + "\" cannot be created."
+    fmt = 'Yes, "{}" can be created.' if flag else 'No, "{}" cannot be created.'
+    print(fmt.format(w))
 
 
 @click.command()
 @click.option('-s', default=None, help='Collection of stupid letters.')
 def longest(s):
     fun = Fun(s)
-    print fun.longest()
-
-
+    print(fun.longest())
