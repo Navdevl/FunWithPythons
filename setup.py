@@ -16,5 +16,5 @@ setup(
     license='Still Nothing',
     author='Naveen',
     author_email='naveendurai19@gmail.com',
-    description='Trying to impress Skript :P'
+    description='Trying to impress Skcript :P'
 )
